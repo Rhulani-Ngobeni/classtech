@@ -26,6 +26,17 @@ marks = [mark for name, mark in students]
 # Average
 average = sum(marks) / len(marks)
 
+
+# Integer division
+groups = num_students // 5
+print("Groups of 5 students:", groups)
+
+# Modulus and ==
+if mark % 2 == 0:
+    print("Even mark")
+else:
+    print("Odd mark"
+
 # Minimum and Maximum
 minimum = min(marks)
 maximum = max(marks)
