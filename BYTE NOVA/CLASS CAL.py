@@ -41,6 +41,12 @@ else:
 minimum = min(marks)
 maximum = max(marks)
 
+if average >= 75:
+    prediction = "Excellent performance expected."
+elif average >= 50:
+    prediction = "Likely to pass with consistent effort."
+else:
+    prediction = "Additional support may be required."
 # Distinctions (75% and above)
 distinctions = [(name, mark) for name, mark in students if mark >= 75]
 
